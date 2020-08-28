@@ -16,6 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/hello', function () {
-   return 'Hello!';
-});
+Route::resource('contacts','ContactController');

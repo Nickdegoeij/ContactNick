@@ -1,4 +1,4 @@
-@extends('contacts.layout')
+@extends('layout')
 
 @section('content')
     <div class="row">
@@ -7,7 +7,7 @@
                 <h2>Make wishes</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success" href="{{ route('contacts.create') }}"> Create New Wish</a>
+                <a class="btn btn-success" href="{{ route('create') }}"> Create New Wish</a>
             </div>
         </div>
     </div>
@@ -28,21 +28,21 @@
             <th>Prijs</th>
 
         </tr>
-        @foreach ($contacts as $contact)
+        @foreach ($wishlist as $wish)
             <tr>
                 <td>{{ ++$i }}</td>
-                <td>{{ $contact->name }}</td>
-                <td>{{ $contact->plaatje }}</td>
-                <td>{{ $contact->url }}</td>
-                <td>{{ $contact->beschrijving }}</td>
-                <td>{{ $contact->prijs }}</td>
+                <td>{{ $wish->name }}</td>
+                <td>{{ $wish->plaatje }}</td>
+                <td>{{ $wish->url }}</td>
+                <td>{{ $wish->beschrijving }}</td>
+                <td>{{ $wish->prijs }}</td>
 
                 <td>
-                    <form action="{{ route('contacts.destroy',$contact->id) }}" method="POST">
+                    <form action="{{ route('wishlist',$wish->id) }}" method="POST">
 
-                        <a class="btn btn-info" href="{{ route('contacts.show',$contact->id) }}">Show</a>
+                        <a class="btn btn-info" href="{{ route('wishlist.show',$wish->id) }}">Show</a>
 
-                        <a class="btn btn-primary" href="{{ route('contacts.edit',$contact->id) }}">Edit</a>
+                        <a class="btn btn-primary" href="{{ route('wishlist.edit',$wish->id) }}">Edit</a>
 
                         @csrf
                         @method('DELETE')
@@ -54,6 +54,6 @@
         @endforeach
     </table>
 
-    {!! $contacts->links() !!}
+    {!! $wishlist->links() !!}
 
 @endsection

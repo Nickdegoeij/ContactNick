@@ -1,4 +1,4 @@
-@extends('contacts.layout')
+@extends('layout')
 
 @section('content')
     <div class="row">
@@ -7,7 +7,7 @@
                 <h2>Add New Wish</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('contacts.index') }}"> Back</a>
+                <a class="btn btn-primary" href="{{ route('wishlist.index') }}"> Back</a>
             </div>
         </div>
     </div>
@@ -23,7 +23,7 @@
         </div>
     @endif
 
-    <form action="{{ route('contacts.store') }}" method="POST">
+    <form action="{{ route('wishlist.store') }}" method="POST">
         @csrf
 
         <div class="row">

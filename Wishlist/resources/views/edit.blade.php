@@ -1,13 +1,13 @@
-@extends('contacts.layout')
+@extends('layout')
 
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Add New Wish</h2>
+                <h2>Edit Wish</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('contacts.index') }}"> Back</a>
+                <a class="btn btn-primary" href="{{ route('index') }}"> Back</a>
             </div>
         </div>
     </div>
@@ -23,38 +23,39 @@
         </div>
     @endif
 
-    <form action="{{ route('contacts.store') }}" method="POST">
+    <form action="{{ route('update',$wishlist->id) }}" method="POST">
         @csrf
+        @method('PUT')
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Title:</strong>
-                    <input type="text" name="name" class="form-control" placeholder="Name">
+                    <strong>Name:</strong>
+                    <input type="text" name="name" value="{{ $wishlist->name }}" class="form-control" placeholder="Name">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Plaatje:</strong>
-                    <textarea class="form-control" style="height:150px" name="plaatje" placeholder="Plaatje"></textarea>
+                    <textarea class="form-control" style="height:150px" name="plaatje" placeholder="Plaatje">{{ $wishlist->plaatje }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>URL:</strong>
-                    <textarea class="form-control" style="height:150px" name="url" placeholder="URL"></textarea>
+                    <textarea class="form-control" style="height:150px" name="url" placeholder="URL">{{ $wishlist->url }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Beschrijving:</strong>
-                    <textarea class="form-control" style="height:150px" name="beschrijving" placeholder="beschrijving"></textarea>
+                    <textarea class="form-control" style="height:150px" name="beschrijving" placeholder="Beschrijving">{{ $wishlist->beschrijving }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>prijs:</strong>
-                    <textarea class="form-control" style="height:150px" name="prijs" placeholder="Prijs"></textarea>
+                    <strong>Prijs:</strong>
+                    <textarea class="form-control" style="height:150px" name="prijs" placeholder="Prijs">{{ $wishlist->prijs }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">

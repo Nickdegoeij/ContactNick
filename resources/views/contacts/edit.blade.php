@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Edit Product</h2>
+                <h2>Edit Wish</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary" href="{{ route('contacts.index') }}"> Back</a>
@@ -36,8 +36,26 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Detail:</strong>
-                    <textarea class="form-control" style="height:150px" name="detail" placeholder="Detail">{{ $contact->detail }}</textarea>
+                    <strong>Plaatje:</strong>
+                    <textarea class="form-control" style="height:150px" name="plaatje" placeholder="Plaatje">{{ $contact->plaatje }}</textarea>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>URL:</strong>
+                    <textarea class="form-control" style="height:150px" name="url" placeholder="URL">{{ $contact->url }}</textarea>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>Beschrijving:</strong>
+                    <textarea class="form-control" style="height:150px" name="beschrijving" placeholder="Beschrijving">{{ $contact->beschrijving }}</textarea>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>Prijs:</strong>
+                    <textarea class="form-control" style="height:150px" name="prijs" placeholder="Prijs">{{ $contact->prijs }}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">

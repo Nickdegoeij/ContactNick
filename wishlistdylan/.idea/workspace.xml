@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c1e514e-1b06-48c9-95d8-5aa4203a7362" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/../Wishlist/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.idea/Wishlistv2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Controllers/WishController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/app/Wish.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/database/migrations/2020_09_14_121448_create_wishes_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/views/welcome.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/views/wishes/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/views/wishes/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/views/wishes/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/views/wishes/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/resources/views/wishes/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Wishlistv2/webpack.mix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/wishlist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/.env.example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/.styleci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Console/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Exceptions/Handler.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Controllers/Auth/ForgotPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Controllers/Auth/ResetPasswordController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Controllers/WishlistController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Middleware/CheckForMaintenanceMode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Middleware/EncryptCookies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Middleware/IsAdmin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Middleware/TrimStrings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Middleware/TrustProxies.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Http/Middleware/VerifyCsrfToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Providers/BroadcastServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/app/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/artisan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/bootstrap/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/bootstrap/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/composer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/app.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/broadcasting.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/cache.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/database.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/filesystems.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/hashing.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/logging.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/mail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/queue.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/services.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/session.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/config/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/database/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/database/migrations/2014_10_12_100000_create_password_resets_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/database/migrations/2019_08_19_000000_create_failed_jobs_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/database/migrations/2019_09_12_000000_create_wishlist_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/name('home')" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/public/web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/js/components/ExampleComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/lang/en/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/lang/en/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/lang/en/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/lang/en/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/sass/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/sass/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/addwish.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/auth/passwords/confirm.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/auth/passwords/email.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/auth/passwords/reset.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/auth/verify.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/editwish.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/grud.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/resources/views/wishlist.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/routes/api.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/routes/channels.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/routes/console.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/routes/web.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/storage/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/storage/app/public/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/storage/framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/storage/framework/cache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/storage/framework/sessions/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/storage/framework/testing/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/storage/framework/views/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/storage/logs/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/string('product_link')" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/tests/CreatesApplication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/tests/Feature/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/tests/TestCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/tests/Unit/ExampleTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/tests/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishlist/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/wishlist/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ui</find>
+      <find>laravel/ui</find>
+      <find>img</find>
+      <find>[</find>
+      <find>grud</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/wishlist/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/composer" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/wishlist/vendor/tijsverkoyen/css-to-inline-styles" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1huMNOGkrpVJORo8BfmPP6U7J0s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wishlist\wishlist\database\migrations" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c1e514e-1b06-48c9-95d8-5aa4203a7362" name="Default" comment="" />
+      <created>1599912761268</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599912761268</updated>
+      <workItem from="1599912763221" duration="13515000" />
+      <workItem from="1600080444496" duration="6808000" />
+      <workItem from="1600856484372" duration="825000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
